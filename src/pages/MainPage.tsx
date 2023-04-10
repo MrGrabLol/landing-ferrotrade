@@ -37,9 +37,9 @@ export function MainPage() {
                     <span>РОССИЙСКИЙ</span>
                     <span>ПРОИЗВОДИТЕЛЬ</span>
                     <span>ПРОВОЛОКИ</span>
-                    <div className='btn-div'>
-                        <button>Узнать больше</button>
-                    </div>
+                    {/*<div className='btn-div'>*/}
+                    {/*    <button>Узнать больше</button>*/}
+                    {/*</div>*/}
                 </div>
             </div>
             <div id='products' className='products-container'>
