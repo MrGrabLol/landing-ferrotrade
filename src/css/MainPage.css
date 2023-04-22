@@ -51,15 +51,9 @@ html {
     align-items: center;
     flex-direction: column;
     /*justify-content: center;*/
-    background:linear-gradient(
-            rgba(0, 0, 0, 1),
-            rgba(0, 0, 0, 0)
-    ), url("../assets/главная картинка.jpg");
+    background: url("../assets/главная картинка.jpg");
     background-size: 100%;
-    /*box-shadow: inset 10px 4px 2px -4px red;*/
-    /*backdrop-filter: blur(10px);*/
-    /*border: 2px solid red;*/
-    /*box-shadow: inset 0px 40px 30px -30px red*/
+    background-repeat: no-repeat;
 }
 
 .main-picture div {
@@ -117,8 +111,7 @@ html {
     background-color: #080d1a;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 0 40px 40px 125px #080d1a;
-
+    /*box-shadow: 0 40px 40px 125px #080d1a;*/
 }
 
 .products-container h1 {
@@ -179,7 +172,7 @@ html {
 
 .production-container h1 {
     color: white;
-    margin-top: 50px;
+    margin-top: 90px;
     /*margin-bottom: -10px;*/
     letter-spacing: 4px;
     font-size: 36px;
@@ -337,4 +330,117 @@ html {
     font-size: 16px;
     /*font-weight: bold;*/
     /*text-align: center;*/
+}
+
+.nav-btn {
+    color: white;
+    background-color: #080d1a;
+    border: none;
+    font-size: 1.8rem;
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar .nav-btn {
+        display: inline-block;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .navbar .headers{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        background-color: #080d1a;
+        transition: 1s;
+        transform: translateY(-100%);
+        /*overflow: hidden;*/
+    }
+
+    .navbar .responsive-nav {
+        transform: none;
+    }
+
+    .headers .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .main-picture {
+        width: 100vw;
+        height: 85vh;
+        background: url("../assets/mobile-main.jpg");
+        background-size: 126%;
+        background-repeat: no-repeat;
+    }
+
+    .main-picture span {
+        font-size: 22px;
+    }
+
+    .products-container {
+        height: fit-content;
+        /*width: 100%;*/
+    }
+
+    .products-container h1 {
+        margin-top: 40px;
+    }
+
+    .products {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wires {
+        margin-bottom: 40px;
+    }
+
+    .production-container {
+        height: fit-content;
+    }
+
+    .production-container h1 {
+        margin-top: 15px;
+        margin-bottom: 25px;
+        letter-spacing: 2px;
+    }
+
+    .production {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .prodtype {
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .prodtype img {
+        width: 90vw;
+    }
+
+    .prodtype span {
+        margin-top: 10px;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+    }
+
 }

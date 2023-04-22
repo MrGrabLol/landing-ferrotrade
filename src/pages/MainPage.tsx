@@ -8,29 +8,41 @@ import lab from '../assets/лаборатория.jpg'
 import warehouse from '../assets/склад и продукция.jpg'
 import google from '../assets/gp.png'
 import '../css/MainPage.css'
+import {useRef} from "react";
 
 export function MainPage() {
+
+    const showNavbar = () => {
+        document.getElementById('navbar')?.classList.toggle('responsive-nav')
+    }
+
     return (
         <div className='container'>
             <div className='navbar'>
                 <img className='image' src={logo} alt="ФЕРРОТРЕЙД" style={{filter: 'invert()'}}/>
-                <div className='headers'>
-                    <a href="#products">
+                <nav className='headers' id='navbar'>
+                    <a href="#products" onClick={showNavbar}>
                         <span>ПРОДУКЦИЯ</span>
                     </a>
-                    <a href="#production">
+                    <a href="#production" onClick={showNavbar}>
                         <span>ПРОИЗВОДСТВО</span>
                     </a>
-                    <a href="#info">
+                    <a href="#info" onClick={showNavbar}>
                         <span>ИНФО</span>
                     </a>
-                    <a href="#contacts">
+                    <a href="#contacts" onClick={showNavbar}>
                         <span>КОНТАКТЫ</span>
                     </a>
-                    <a href="#certificate">
+                    <a href="#certificate" onClick={showNavbar}>
                         <span>ПРОВЕРКА СЕРТИФИКАТОВ</span>
                     </a>
-                </div>
+                    <button className='nav-btn nav-close-btn' onClick={showNavbar}>
+                        &#10006;
+                    </button>
+                </nav>
+                <button className='nav-btn' onClick={showNavbar}>
+                    &#9776;
+                </button>
             </div>
             <div className='main-picture'>
                 <div className='text-div'>
