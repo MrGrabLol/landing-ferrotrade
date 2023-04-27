@@ -1,0 +1,31 @@
+.navbar {
+    width: 100vw;
+    height: 85px;
+    background-color: #080d1a;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*box-shadow: 0 0 20px 20px #080d1a;*/
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a span {
+    color: white;
+    padding: 0 15px;
+    font-size: 17px;
+    transition: color 0.25s,text-shadow 0.25s;
+    cursor: pointer;
+}
+
+.navbar a span:hover {
+    color: aqua;
+    text-shadow: 0 0 10px midnightblue, 0 0 20px midnightblue, 0 0 30px midnightblue, 0 0 40px aqua, 0 0 50px aqua, 0 0 60px aqua, 0 0 70px aqua;
+}
+
+.navbar img {
+    height: 100%;
+}

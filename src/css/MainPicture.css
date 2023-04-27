@@ -1,0 +1,59 @@
+.main-picture {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    /*text-align: center;*/
+    align-items: center;
+    flex-direction: column;
+    /*justify-content: center;*/
+    background: url("../assets/главная картинка.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.main-picture div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    /*border: 1px solid red;*/
+    /*margin: 0;*/
+}
+
+.btn-div {
+    /*display: inline-block;*/
+    /*margin-top: 100px;*/
+}
+
+.text-div {
+    margin-top: 285px;
+}
+
+.btn-div button {
+    /*display: inline-block;*/
+    width: 160px;
+    height: 58px;
+    border-radius: 6px;
+    border: none;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 85px;
+    transition: all 0.2s;
+    cursor: pointer;
+    /*padding-top: 100px;*/
+    /*margin: auto;*/
+}
+
+.btn-div button:hover {
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(255, 255, 255, 0.25);
+}
+
+
+.main-picture span {
+    color: white;
+    letter-spacing: 4px;
+}

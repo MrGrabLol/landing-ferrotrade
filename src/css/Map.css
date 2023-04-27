@@ -1,0 +1,13 @@
+.map-container {
+    display: flex;
+    height: 50vh;
+    background-color: #080d1a;
+    border: 40px solid #080d1a;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 6px;
+}
