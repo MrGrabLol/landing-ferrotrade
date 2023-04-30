@@ -39,3 +39,10 @@
     margin-top: 4px;
     margin-bottom: 4px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .contacts {
+        display: flex;
+        flex-direction: column;
+    }
+}

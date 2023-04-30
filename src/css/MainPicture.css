@@ -57,3 +57,17 @@
     color: white;
     letter-spacing: 4px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .main-picture {
+        width: 100vw;
+        height: 85vh;
+        background: url("../assets/mobile-main.jpg");
+        background-size: 126%;
+        background-repeat: no-repeat;
+    }
+
+    .main-picture span {
+        font-size: 22px;
+    }
+}
