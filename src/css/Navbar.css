@@ -35,6 +35,7 @@
         display: inline-block;
         opacity: 1;
         visibility: visible;
+        font-size: 38px;
     }
 
     .navbar .headers{
@@ -56,6 +57,10 @@
 
     .navbar .responsive-nav {
         transform: none;
+    }
+
+    .navbar img {
+        height: 82%;
     }
 
     .headers .nav-close-btn {

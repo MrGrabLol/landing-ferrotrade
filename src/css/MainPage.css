@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
 
+/*@font-face {*/
+/*    font-family: 'Coco Gothic';*/
+/*    src: local('Coco Gothic SmallCaps Bold'), local('Coco-Gothic-SmallCaps-Bold'),*/
+/*    url('../pages/CocoGothicSmallCaps-Bold.woff2') format('woff2'),*/
+/*    url('../pages/CocoGothicSmallCaps-Bold.woff') format('woff'),*/
+/*    url('../pages/CocoGothicSmallCaps-Bold.ttf') format('truetype');*/
+/*    font-weight: 700;*/
+/*    font-style: normal;*/
+/*}*/
+
 html {
     scroll-behavior: smooth;
 }

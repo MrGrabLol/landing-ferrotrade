@@ -6,7 +6,7 @@
     align-items: center;
     flex-direction: column;
     /*justify-content: center;*/
-    background: url("../assets/главная картинка.jpg");
+    background: url("../assets/главная картинка с затемнением.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -56,18 +56,20 @@
 .main-picture span {
     color: white;
     letter-spacing: 4px;
+    font-weight: lighter;
 }
 
 @media only screen and (max-width: 1024px) {
     .main-picture {
         width: 100vw;
         height: 85vh;
-        background: url("../assets/mobile-main.jpg");
+        background: url("../assets/главная картинка с затемнением mobile.jpg");
         background-size: 126%;
         background-repeat: no-repeat;
     }
 
     .main-picture span {
-        font-size: 22px;
+        font-size: 26px;
+        font-weight: lighter;
     }
 }

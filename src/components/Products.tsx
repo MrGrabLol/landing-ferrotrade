@@ -10,7 +10,8 @@ export function Products() {
             <div className='products'>
                 <div className='wires'>
                     <img src={wire_first} alt="ПРОВОЛОКА 1"/>
-                    <span className='span-header'>Проволока сварочная ГОСТ 2246-70 и ТУ</span>
+                    <span className='span-header' style={{marginBottom: '0'}}>Проволока сварочная</span>
+                    <span className='span-header'>ГОСТ 2246-70 и ТУ</span>
                     <span>Проволока сварочная из низкоуглеродистой, легированной и высоколегированной стали</span>
                 </div>
                 <div className='wires'>

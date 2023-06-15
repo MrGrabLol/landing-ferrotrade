@@ -11,19 +11,19 @@ export function Production() {
             <div className='production'>
                 <div className='prodtype'>
                     <img src={metalurg} alt="ПРОИЗВОДСТВО 1"/>
-                    <span>Металлургическое производство</span>
+                    <span>МЕТАЛЛУРГИЧЕСКОЕ ПРОИЗВОДСТВО</span>
                 </div>
                 <div className='prodtype'>
                     <img src={metiz} alt="ПРОИЗВОДСТВО 2"/>
-                    <span>Метизное производство</span>
+                    <span>МЕТИЗНОЕ ПРОИЗВОДСТВО</span>
                 </div>
                 <div className='prodtype'>
                     <img src={lab} alt="ПРОИЗВОДСТВО 3"/>
-                    <span>Лаборатория</span>
+                    <span>ЛАБОРАТОРИЯ</span>
                 </div>
                 <div className='prodtype'>
                     <img src={warehouse} alt="ПРОИЗВОДСТВО 4"/>
-                    <span>Склад и продукция</span>
+                    <span>СКЛАД И ПРОДУКЦИЯ</span>
                 </div>
             </div>
         </div>
