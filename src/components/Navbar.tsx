@@ -23,9 +23,9 @@ export function Navbar() {
                 <a href="#contacts" onClick={showNavbar}>
                     <span>КОНТАКТЫ</span>
                 </a>
-                <a href="#certificate" onClick={showNavbar}>
-                    <span>ПРОВЕРКА СЕРТИФИКАТОВ</span>
-                </a>
+                {/*<a href="#certificate" onClick={showNavbar}>*/}
+                {/*    <span>ПРОВЕРКА СЕРТИФИКАТОВ</span>*/}
+                {/*</a>*/}
                 <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                     &#10006;
                 </button>

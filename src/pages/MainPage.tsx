@@ -16,7 +16,7 @@ export function MainPage() {
             <MainPicture/>
             <Products/>
             <Production/>
-            <Certificate/>
+            {/*<Certificate/>*/}
             <Video/>
             <Map/>
             <Contacts/>
